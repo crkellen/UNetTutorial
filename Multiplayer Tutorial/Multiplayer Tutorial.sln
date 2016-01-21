@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{20724BD0-C29F-6A92-0FBE-0DC06DED3A63}") = "Multiplayer Tutorial", "Assembly-CSharp-firstpass.csproj", "{BDD9EC2F-2FC8-5335-C797-E0717728589B}"
+EndProject
+Project("{20724BD0-C29F-6A92-0FBE-0DC06DED3A63}") = "Multiplayer Tutorial", "Assembly-CSharp.csproj", "{0E3000AF-9289-2B35-3042-CAE0B3458E75}"
+EndProject
+Project("{20724BD0-C29F-6A92-0FBE-0DC06DED3A63}") = "Multiplayer Tutorial", "Assembly-CSharp-Editor.csproj", "{1B801194-5CE2-B53A-DD13-8A751AB6F6C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDD9EC2F-2FC8-5335-C797-E0717728589B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD9EC2F-2FC8-5335-C797-E0717728589B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD9EC2F-2FC8-5335-C797-E0717728589B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD9EC2F-2FC8-5335-C797-E0717728589B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E3000AF-9289-2B35-3042-CAE0B3458E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E3000AF-9289-2B35-3042-CAE0B3458E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E3000AF-9289-2B35-3042-CAE0B3458E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E3000AF-9289-2B35-3042-CAE0B3458E75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B801194-5CE2-B53A-DD13-8A751AB6F6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B801194-5CE2-B53A-DD13-8A751AB6F6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B801194-5CE2-B53A-DD13-8A751AB6F6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B801194-5CE2-B53A-DD13-8A751AB6F6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

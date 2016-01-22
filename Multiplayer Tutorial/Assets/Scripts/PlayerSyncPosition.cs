@@ -14,7 +14,7 @@ public class PlayerSyncPosition : NetworkBehaviour {
 	}
 
 	void LerpPosition() {
-		if (!isLocalPlayer) {
+		if ( !isLocalPlayer ) {
 			myTransform.position = Vector3.Lerp (myTransform.position, syncPos, Time.deltaTime * lerpRate);
 		}
 	}
@@ -26,7 +26,7 @@ public class PlayerSyncPosition : NetworkBehaviour {
 
 	[ClientCallback]
 	void TransmitPosition() {
-		if(isLocalPlayer) {
+		if( isLocalPlayer ) {
 			CmdProvidePositionToServer(myTransform.position);
 		}
 	}

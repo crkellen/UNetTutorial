@@ -1,0 +1,14 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerSyncRotation.cs">
+    <Files>
+      <File FileName="Assets\Scripts\PlayerSyncRotation.cs" Line="16" Column="19" />
+      <File FileName="Assets\Scripts\PlayerNetworkSetup.cs" Line="11" Column="22" />
+      <File FileName="Assets\Scripts\PlayerSyncPosition.cs" Line="17" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

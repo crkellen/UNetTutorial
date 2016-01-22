@@ -8,7 +8,7 @@ public class PlayerNetworkSetup : NetworkBehaviour {
 	[SerializeField] AudioListener FPSCharacterListener;
 
 	void Start () {
-		if (isLocalPlayer) {
+		if ( isLocalPlayer ) {
 			GameObject.Find ("Scene Camera").SetActive(false);
 			GetComponent<CharacterController> ().enabled = true;
 			GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController> ().enabled = true;
